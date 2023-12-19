@@ -5,7 +5,7 @@
     </div>
     <ul class="flex menu__toggle overflow-hidden h-0 lg:h-20 duration-300 lg:p-0 shadow-md lg:shadow-none flex-col absolute left-0 right-0 bg-white lg:bg-transparent top-16 lg:top-0 lg:relative lg:flex-row lg:items-center text-gray-800">
         @for (item of navLinks; track $index) {
-            <li class="lg:ml-5 mt-4 lg:mt-0" (click)="toggleMenu()"><a routerLink="{{item.path}}" class="hover:text-black hover:duration-300"> {{item.name}} </a></li>
+            <li class="lg:ml-5 mt-4 lg:mt-0" (click)="toggleMenu()"><a routerLink="{{item.path}}" routerLinkActive="text-blue-600" class="hover:text-blue-600 hover:duration-300"> {{item.name}} </a></li>
         }
         <li class="lg:ml-5 mt-4 lg:mt-0 bg-blue-600 w-max p-3 rounded-md lg:rounded-full px-4 shadow-md group text-white"><a href="" class="flex items-center">
             <div>Réjoindre</div>
