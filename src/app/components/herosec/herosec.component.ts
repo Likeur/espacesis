@@ -9,6 +9,6 @@ import { CUSTOM_ELEMENTS_SCHEMA, Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './herosec.component.html',
-  // schemas : [CUSTOM_ELEMENTS_SCHEMA]
+  schemas : [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class HerosecComponent {}
