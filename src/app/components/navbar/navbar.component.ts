@@ -28,8 +28,9 @@ export class NavbarComponent {
     const barUn = document.querySelector('#bar-1')!
     const barDeux = document.querySelector('#bar-2')!
 
-    menuToggle.classList.toggle('h-72')
+    menuToggle.classList.toggle('h-64')
     menuToggle.classList.toggle('p-8')
+    menuToggle.classList.toggle('fixed')
     barUn.classList.toggle('rotate-45')
     barUn.classList.toggle('absolute')
     barDeux.classList.toggle('mt-2')
