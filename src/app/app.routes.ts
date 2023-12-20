@@ -7,6 +7,11 @@ export const routes: Routes = [
         loadComponent: () => import('./pages/home/home.component')
     },
     {
+        path:'about',
+        title: 'à propos',
+        loadComponent: () => import('./pages/about/about.component')
+    },
+    {
         path:'',
         redirectTo: 'home',
         pathMatch: 'full'

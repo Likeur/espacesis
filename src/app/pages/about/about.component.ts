@@ -1,12 +1,16 @@
 import { Component } from '@angular/core';
+import { NavbarComponent } from '../../components/navbar/navbar.component';
 
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [],
-  templateUrl: './about.component.html',
-  styles: ``
+  imports: [NavbarComponent],
+  template: `
+    <main>
+      <app-navbar/>
+    </main>
+  `,
 })
-export class AboutComponent {
+export default class AboutComponent {
 
 }

@@ -11,12 +11,16 @@ export class NavbarComponent {
   navLinks = [
     {
       name : 'Acceuil',
-      path : 'home',
+      path : '../home',
     },
     {
       name : 'à propos',
-      path : 'about',
-    }
+      path : '../about',
+    },
+    {
+      name : 'blog',
+      path : '../blog',
+    },
   ]
 
   toggleMenu(){
@@ -24,7 +28,7 @@ export class NavbarComponent {
     const barUn = document.querySelector('#bar-1')!
     const barDeux = document.querySelector('#bar-2')!
 
-    menuToggle.classList.toggle('h-52')
+    menuToggle.classList.toggle('h-72')
     menuToggle.classList.toggle('p-8')
     barUn.classList.toggle('rotate-45')
     barUn.classList.toggle('absolute')
