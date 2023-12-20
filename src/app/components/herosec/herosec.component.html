@@ -1,6 +1,6 @@
 <section class="w-screen grid gap-4 lg:grid-cols-2">
     <div class="p-6 lg:p-8 mt-5 lg:mt-0">
-        <div  class="text-3xl lg:text-5xl font-bold text-gray-800  flex flex-col justify-center">
+        <div  class="text-3xl lg:text-4xl font-bold text-gray-800  flex flex-col justify-center">
             <h3>Réjoins une Commununauté</h3>
             <h3>des <span class="font-black bg-gradient-to-r from-blue-600 to-blue-400 text-transparent bg-clip-text ">Jeunes Passionnés</span></h3>
             <h3>de tech</h3>
@@ -23,29 +23,9 @@
 
         
     </div>
-    <div class="p-6">
-        <div  class="">
-            <div class="overflow-hidden w-full h-max rounded-xl">
-                <swiper-container
-                    navigation = "true"
-                    pagination-dynamic-bullets="true"
-                    pagination-clickable = "true"
-                    effect="cards" 
-                    loop = "true"
-                    grab-cursor="true"
-                >
-                    <swiper-slide>
-                        <img src="../../../assets/images/devfest1.jpg" alt="" class="w-full h-full aspect-video object-cover">
-                    </swiper-slide>
-                    <swiper-slide>
-                        <img src="../../../assets/images/devfest2.jpg" alt="" class="w-full h-full aspect-video object-cover">
-                    </swiper-slide>
-                    <swiper-slide>
-                        <img src="../../../assets/images/devfest3.jpg" alt="" class="w-full h-full aspect-video object-cover">
-                    </swiper-slide>
-                    
-                  </swiper-container>
-            </div>
+    <div class="mt">
+        <div  class="flex p-4 ml-2">
+            <app-slider/>
         </div>
     </div>
 </section>
