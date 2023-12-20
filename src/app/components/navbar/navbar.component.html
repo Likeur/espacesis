@@ -1,9 +1,9 @@
-<nav class="w-screen container duration-300 mx-auto flex items-center p-5 lg:p-6 justify-between">
-    <div>
-        <img src="" alt="">
-        <h4 class="text-2xl font-bold text-gray-800">Espacesis</h4>
+<nav class="w-screen border lg:border-none duration-300 mx-auto flex items-center p-5 lg:p-6 justify-between">
+    <div class="flex items-center">
+        <img src="../../../assets/images/espacesis.png" width="60" alt="">
+        <h4 class="text-2xl font-bold ml-2 text-gray-800">Espacesis</h4>
     </div>
-    <ul class="flex menu__toggle overflow-hidden h-0 lg:h-20 duration-300 lg:p-0 shadow-md lg:shadow-none flex-col absolute left-0 right-0 bg-white lg:bg-transparent top-16 lg:top-0 lg:relative lg:flex-row lg:items-center text-gray-800">
+    <ul class="flex menu__toggle overflow-hidden h-0 lg:h-20 duration-300 lg:p-0 shadow-md lg:shadow-none flex-col absolute left-0 right-0 bg-white lg:bg-transparent top-16 lg:top-0 lg:relative lg:mr-3 lg:flex-row lg:items-center text-gray-800">
         @for (item of navLinks; track $index) {
             <li class="lg:ml-5 mt-4 lg:mt-0" (click)="toggleMenu()"><a routerLink="{{item.path}}" routerLinkActive="text-blue-600" class="hover:text-blue-600 hover:duration-300"> {{item.name}} </a></li>
         }
