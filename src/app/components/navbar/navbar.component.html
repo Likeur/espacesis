@@ -1,19 +1,16 @@
-<nav class="w-screen border sticky top-0 bg-white/70 backdrop-blur-md z-50 border-black/5 duration-300 mx-auto flex items-center p-1 lg:p-1 lg:px-4 justify-between">
-    <div class="flex items-center">
-        <img src="../../../assets/images/espacesis.png" width="50" alt="">
-        <h4 class="text-xl ml-1 lg:text-2xl font-bold lg:ml-2 text-gray-800">Espacesis</h4>
-    </div>
-    <ul class="flex menu__toggle overflow-hidden h-0 lg:h-20 duration-300 lg:p-0 shadow-md lg:shadow-none flex-col absolute left-0 right-0 bg-white lg:bg-transparent top-16 lg:top-0 lg:relative lg:mr-3 lg:flex-row lg:items-center text-gray-800">
-        @for (item of navLinks; track $index) {
-            <li class="lg:ml-5 mt-4 lg:mt-0" (click)="toggleMenu()"><a routerLink="{{item.path}}" routerLinkActive="text-blue-600" class="hover:text-blue-600 hover:duration-300"> {{item.name}} </a></li>
-        }
-        <li class="lg:ml-5 mt-4 lg:mt-0 bg-blue-600 w-max p-3 rounded-md lg:rounded-full px-4 shadow-md group text-white"><a href="" class="flex items-center">
-            <div>Réjoindre</div>
-            <i class='bx bxs-chevron-right ml-1 group-hover:duration-300 bg-white p-1 rounded-full text-gray-800 group-hover:translate-x-2'></i>
-        </a></li>
-    </ul> 
-    <button (click)="toggleMenu()" title="toggle nav btn" class="lg:hidden relative mr-4">
-        <div id="bar-1" class="bg-gray-800 h-0.5 w-6 rounded-full duration-300"></div>
-        <div id="bar-2" class="bg-gray-800 h-0.5 w-6 rounded-full duration-300 mt-2"></div>
-    </button>   
+<nav class=" p-4 flex justify-center">
+    <section class="lg:w-[80vw] flex justify-between items-center">
+        <div>
+            <div class="h-20 w-20">
+                <img src="../../../assets/images/espacesis.png" class=" w-full h-full object-cover" alt="">
+            </div>
+        </div>
+        <ul class="flex items-center text-lg text-gray-900 gap-4 font-semibold">
+            <li><a href="">Acceuil</a></li>
+            <li><a href="">A propos</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <a href="" class="border p-3 px-4 rounded-full">Rejoindre</a>
+    </section>
 </nav>
