@@ -1,1 +1,33 @@
-<p>teamsection works!</p>
+<section class="flex justify-center">
+    <div class="lg:w-[90vw]">
+        <div class="flex justify-center">
+            <div class="w-[80%]">
+                <h3 class="text-2xl font-bold lg:text-5xl text-gray-400">Core Team</h3>
+                <p class="text-2xl lg:text-5xl font-bold mt-1">Equipe Organisatrice</p>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <div class="p-4 lg:p-6 mt-5 grid justify-center grid-cols-3 w-full lg:grid-cols-4 lg:mt-16 gap-4 lg:gap-6 lg:mb-8">
+                @for(item of teamList1; track item.id){
+                    <div class=" flex flex-col items-center">
+                        <div>
+                            <div class="h-44 w-44 rounded-xl overflow-hidden">
+                                <img [src]="item.photoLink" class="w-full h-full object-cover" alt="">
+                            </div>
+                            <div class="mt-2">
+                                <p class="text-xl lg:text-2xl font-semibold">{{item.name}}</p>
+                                <p class="text-gray-500">{{item.post}}</p>
+                                <div>
+                                    <a [href]="item.linkedin" class="underline">Lk</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+       <div class="flex justify-center ">
+        <a href="" class="bg-gray-950 p-4 px-10 text-white text-lg rounded-full">En voir plus ...</a>
+       </div>
+    </div>
+</section>

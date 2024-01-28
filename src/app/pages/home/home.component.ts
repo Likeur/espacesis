@@ -15,8 +15,10 @@ import { DiscoversectionComponent } from '../../components/discoversection/disco
   imports: [NavbarComponent, HerosectionComponent, PartnersectionComponent,DiscoversectionComponent,TeamsectionComponent, EventsectionComponent , CtasectionComponent,FootersectionComponent],
   template: `
           <main>
-            <app-navbar/>
-            <app-herosection/> 
+            <div>
+              <app-navbar/>
+              <app-herosection/> 
+            </div>
             <app-partnersection/> 
             <app-discoversection/> 
             <app-teamsection/> 

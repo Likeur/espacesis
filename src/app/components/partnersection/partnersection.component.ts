@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './partnersection.component.html',
-  styles: ``
 })
 export class PartnersectionComponent {
 
