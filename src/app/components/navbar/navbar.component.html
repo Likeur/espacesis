@@ -1,20 +1,24 @@
-<nav class=" p-4 flex justify-center p-4 lg:p-0">
-    <section class="lg:w-[90vw] flex justify-between items-center">
-        <div class="flex items-center gap-2">
+<nav class=" p-4 flex justify-center lg:p-0">
+    <section class="w-full lg:w-[90vw] flex justify-between items-center">
+        <div class="flex items-center lg:gap-2">
             <div class="h-20 w-20 ">
                 <img src="../../../assets/images/espacesis.png" class=" w-full h-full object-cover" alt="">
             </div>
-            <h3 class="text-2xl font-light">Espacesis</h3>
+            <h3 class="text-2xl hidden lg:block font-light">Espacesis</h3>
         </div>
-        <ul class="flex items-center text-gray-900 gap-4 font-semibold">
+        <ul class="hidden lg:flex absolute lg:relative  flex-col lg:flex-row items-center text-gray-900 gap-4 font-semibold">
             <li><a routerLink="../home" routerLinkActive="text-blue-700" class="block hover:text-blue-700 duration-300">Acceuil</a></li>
             <li><a routerLink="../about" routerLinkActive="text-blue-700" class="block hover:text-blue-700 duration-300">A propos</a></li>
             <li><a routerLink="../blog" routerLinkActive="text-blue-700" class="block hover:text-blue-700 duration-300">Blog</a></li>
             
         </ul>
-        <a href="" class="flex p-3 items-center group gap-2 px-10 rounded-full bg-gray-950 text-white">
+        <a href="" class="hidden lg:flex p-3 items-center group gap-2 px-10 rounded-full bg-gray-950 text-white">
             <span>Rejoindre</span>
             <i class='bx bx-right-arrow-alt -rotate-45 group-hover:translate-x-2 duration-300 text-2xl'></i>
         </a>
+        <button class="mr-4 lg:hidden duration-300">
+            <div class="h-0.5 w-8 bg-gray-900"></div>
+            <div class="h-0.5 w-8 bg-gray-900 mt-2"></div>
+        </button>
     </section>
 </nav>
