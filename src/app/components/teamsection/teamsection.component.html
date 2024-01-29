@@ -18,7 +18,13 @@
                                 <p class="text-xl lg:text-2xl font-semibold">{{item.name}}</p>
                                 <p class="text-gray-500">{{item.post}}</p>
                                 <div>
-                                    <a [href]="item.linkedin" class="underline">Lk</a>
+                                    @if(item.linkedin !== ''){
+                                        <a [href]="item.linkedin" class="underline text-xl"><i class='bx bxl-linkedin-square'></i></a>
+                                    }
+                                    @if(item.instagram !== ''){
+                                        <a [href]="item.linkedin" class="underline text-xl"><i class='bx bxl-instagram-alt' ></i></a>
+                                    }
+                                    
                                 </div>
                             </div>
                         </div>
