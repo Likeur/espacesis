@@ -15,7 +15,7 @@ import { DiscoversectionComponent } from '../../components/discoversection/disco
   imports: [NavbarComponent, HerosectionComponent, PartnersectionComponent,DiscoversectionComponent,TeamsectionComponent, EventsectionComponent , CtasectionComponent,FootersectionComponent],
   template: `
           <main>
-            <div>
+            <div class="bg-blue-300/15">
               <app-navbar/>
               <app-herosection/> 
             </div>

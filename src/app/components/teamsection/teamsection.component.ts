@@ -44,7 +44,7 @@ export class TeamsectionComponent {
     },
     {
       id:5,
-      photoLink : '../../../assets/images/like.jpg',
+      photoLink : '../../../assets/images/atia.jpg',
       name:'Athia',
       post: 'Tresorière',
       linkedin: '...',
