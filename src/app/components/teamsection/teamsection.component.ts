@@ -12,7 +12,7 @@ export class TeamsectionComponent {
   teamList1 = [
     {
       id:1,
-      photoLink : '../../../assets/images/like.jpg',
+      photoLink : '../../../assets/images/mmc.jpg',
       name:'Chrinovic MM',
       post: 'Lead',
       linkedin: '...',
@@ -28,7 +28,7 @@ export class TeamsectionComponent {
     },
     {
       id:3,
-      photoLink : '../../../assets/images/like.jpg',
+      photoLink : '../../../assets/images/christian.jpg',
       name:'Christian',
       post: 'co-lead',
       linkedin: '...',
@@ -60,7 +60,7 @@ export class TeamsectionComponent {
     },
     {
       id:7,
-      photoLink : '../../../assets/images/like.jpg',
+      photoLink : '../../../assets/images/glo.jpg',
       name:'Glodie Lukose',
       post: 'Web',
       linkedin: '...',
@@ -68,7 +68,7 @@ export class TeamsectionComponent {
     },
     {
       id:8,
-      photoLink : '../../../assets/images/like.jpg',
+      photoLink : '../../../assets/images/lkanan.jpg',
       name:'L kanan',
       post: 'ML',
       linkedin: '...',
