@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import Lenis from '@studio-freight/lenis'
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -11,6 +12,12 @@ import Lenis from '@studio-freight/lenis'
 export class AppComponent implements OnInit {
 
   ngOnInit(): void {
+    this.lenisInit()
+  }
+
+  
+
+  lenisInit(){
     const lenis = new Lenis()
 
     lenis.on('scroll', ($_e:any) => {
@@ -23,5 +30,5 @@ export class AppComponent implements OnInit {
     }
 
     requestAnimationFrame(raf)
-      }
+    }
   }
