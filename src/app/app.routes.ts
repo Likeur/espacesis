@@ -12,6 +12,11 @@ export const routes: Routes = [
         loadComponent: () => import('./pages/about/about.component')
     },
     {
+        path:'blog',
+        title: 'blog',
+        loadComponent: () => import('./pages/about/about.component')
+    },
+    {
         path:'',
         redirectTo: 'home',
         pathMatch: 'full'
