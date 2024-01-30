@@ -15,12 +15,12 @@ export class TeamsectionComponent {
       photoLink : '../../../assets/images/mmc.jpg',
       name:'Chrinovic MM',
       post: 'Lead',
-      linkedin: '...',
-      instagram : '...'
+      linkedin: 'https://www.linkedin.com/in/chrinovic-mukeba-5aa765230/',
+      instagram : 'https://www.instagram.com/chrinovicmm?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
     },
     {
       id:2,
-      photoLink : '../../../assets/images/like.jpg',
+      photoLink : '../../../assets/images/muska.jpg',
       name:'John Muska',
       post: 'co-lead',
       linkedin: '...',
@@ -31,16 +31,16 @@ export class TeamsectionComponent {
       photoLink : '../../../assets/images/christian.jpg',
       name:'Christian',
       post: 'co-lead',
-      linkedin: '...',
-      instagram : '...'
+      linkedin: '',
+      instagram : 'https://www.instagram.com/_i_am_chris_tshikwata?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
     },
     {
       id:4,
       photoLink : '../../../assets/images/like.jpg',
       name:'Likeur off',
       post: 'Designer',
-      linkedin: '...',
-      instagram : '...'
+      linkedin: 'https://www.linkedin.com/in/likeur-off-47984327a/',
+      instagram : 'https://www.instagram.com/likeur_off/'
     },
     {
       id:5,
@@ -52,11 +52,11 @@ export class TeamsectionComponent {
     },
     {
       id:6,
-      photoLink : '../../../assets/images/like.jpg',
+      photoLink : '../../../assets/images/altha.jpg',
       name:'Altha',
       post: 'MC & Sec',
-      linkedin: '...',
-      instagram : '...'
+      linkedin: '',
+      instagram : 'https://www.instagram.com/altha_msk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
     },
     {
       id:7,
@@ -64,7 +64,7 @@ export class TeamsectionComponent {
       name:'Glodie Lukose',
       post: 'Web',
       linkedin: '...',
-      instagram : '...'
+      instagram : 'https://www.instagram.com/glodielukose?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
     },
     {
       id:8,

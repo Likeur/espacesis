@@ -17,12 +17,12 @@
                             <div class="mt-2">
                                 <p class="text-xl lg:text-2xl font-semibold">{{item.name}}</p>
                                 <p class="text-gray-500">{{item.post}}</p>
-                                <div>
+                                <div class="mt-1">
                                     @if(item.linkedin !== ''){
-                                        <a [href]="item.linkedin" class="underline text-xl"><i class='bx bxl-linkedin-square'></i></a>
+                                        <a [href]="item.linkedin" target="_blank" class="underline text-xl"><i class='bx bxl-linkedin-square'></i></a>
                                     }
                                     @if(item.instagram !== ''){
-                                        <a [href]="item.linkedin" class="underline text-xl"><i class='bx bxl-instagram-alt' ></i></a>
+                                        <a [href]="item.instagram" target="_blank" class="underline text-xl"><i class='bx bxl-instagram-alt' ></i></a>
                                     }
                                     
                                 </div>
@@ -33,7 +33,10 @@
             </div>
         </div>
        <div class="flex justify-center ">
-        <a href="" class="bg-gray-950 p-4 px-10 text-white text-lg rounded-full">En voir plus ...</a>
+        <a href="" class="flex p-3 justify-between lg:justify-center items-center group gap-2 px-10 rounded-full bg-gray-950 text-white mt-4 lg:mt-0">
+            <span>voir plus</span>
+            <i class='bx bx-right-arrow-alt -rotate-45 group-hover:translate-x-2 duration-300 text-2xl'></i>
+        </a>
        </div>
     </div>
 </section>
