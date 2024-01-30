@@ -59,6 +59,20 @@ export default class HomeComponent implements OnInit {
       stagger:{
         amount:0.3
       }
+    }, "-=1.5").from('.hero_photoes',{
+      opacity:0,
+      y:80,
+      duration:1.5,
+      stagger:{
+        amount:0.3
+      }
+    }, "-=1.5").from('.hero_para, .hero_link, .hero_boxes',{
+      opacity:0,
+      y:80,
+      duration:1.5,
+      stagger:{
+        amount:0.3
+      }
     }, "-=1.5")
 
     // Revealing animations for main elements on the page
