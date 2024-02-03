@@ -6,8 +6,5 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [RouterModule],
   templateUrl: './navbar.component.html',
-  styles: ``
 })
-export class NavbarComponent {
-
-}
+export class NavbarComponent {}

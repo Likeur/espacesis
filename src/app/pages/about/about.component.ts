@@ -1,16 +1,12 @@
 import { Component } from '@angular/core';
+import { NavbarComponent } from '../../components/navbar/navbar.component';
+import { HerosectionComponent } from '../../components/herosection/herosection.component';
 
 
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [],
-  template: `
-    <main>
-      <h2>About</h2>
-    </main>
-  `,
+  imports: [NavbarComponent, HerosectionComponent],
+  templateUrl: 'about.component.html',
 })
-export default class AboutComponent {
-
-}
+export default class AboutComponent {}

@@ -48,7 +48,7 @@ export default class HomeComponent implements OnInit {
       stagger:{
         amount:1
       }
-    }).to('.reveal_text',{
+    }).to('.reveal_text, .home_text_wrapper',{
       opacity:0,
       y:40,
       display:"none"
