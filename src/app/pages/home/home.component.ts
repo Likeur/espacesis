@@ -8,7 +8,9 @@ import { FootersectionComponent } from '../../components/footersection/footersec
 import { TeamsectionComponent } from '../../components/teamsection/teamsection.component';
 import { DiscoversectionComponent } from '../../components/discoversection/discoversection.component';
 import { gsap } from 'gsap';
-import { AstMemoryEfficientTransformer } from '@angular/compiler';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger)
 
 @Component({
   selector: 'app-home',
@@ -24,6 +26,7 @@ export default class HomeComponent implements OnInit {
     })
 
     this.revealAnimation() 
+    this.scrollAnimation()
   }
 
   revealAnimation(){
@@ -77,5 +80,19 @@ export default class HomeComponent implements OnInit {
 
     // Revealing animations for main elements on the page
 
+  }
+
+  scrollAnimation(){
+    gsap.from('.partner_text',{
+      scrollTrigger:{
+        trigger:'.partner_text',
+        start:'top 85%',
+      },
+      y:50,
+      opacity:0,
+      skewX:'10px',
+      duration:0.8,
+      stagger:0.1
+    })
   }
 }

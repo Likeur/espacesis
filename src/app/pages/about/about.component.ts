@@ -6,7 +6,7 @@ import { HerosectionComponent } from '../../components/herosection/herosection.c
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [NavbarComponent, HerosectionComponent],
+  imports: [NavbarComponent],
   templateUrl: 'about.component.html',
 })
 export default class AboutComponent {}
