@@ -94,5 +94,40 @@ export default class HomeComponent implements OnInit {
       duration:0.8,
       stagger:0.1
     })
+
+    gsap.from('.discover_text',{
+      scrollTrigger:{
+        trigger:'.discover_text',
+        start:'top 85%',
+      },
+      y:50,
+      opacity:0,
+      skewX:'10px',
+      duration:0.8,
+      stagger:0.1
+    })
+    gsap.from('.team_text',{
+      scrollTrigger:{
+        trigger:'.team_text',
+        start:'top 85%',
+      },
+      y:50,
+      opacity:0,
+      skewX:'10px',
+      duration:0.8,
+      stagger:0.1
+    })
+
+    gsap.from('.event_text',{
+      scrollTrigger:{
+        trigger:'.event_text',
+        start:'top 85%',
+      },
+      y:50,
+      opacity:0,
+      skewX:'10px',
+      duration:0.8,
+      stagger:0.1
+    })
   }
 }
