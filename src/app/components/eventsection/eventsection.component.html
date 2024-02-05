@@ -13,7 +13,7 @@
                 @for (item of eventList; track item.id) {
                     <a [href]="item.albumLink" class="event_box block group mt-2 lg:mt-0">
                         <div class="lg:h-[45vh] h-[40vh] w-full overflow-hidden rounded-2xl">
-                            <img [src]="item.linkphoto" class="w-full h-full object-cover grayscale group-hover:scale-110 hover:grayscale-0 duration-300" alt="">
+                            <img [src]="item.linkphoto" class="w-full h-full object-cover grayscale group-hover:scale-110 group-hover:grayscale-0 duration-300" alt="">
                         </div>
                         <div class="mt-5 lg:mt-8">
                             <h2 class="text-2xl flex justify-between items-center">
@@ -26,12 +26,7 @@
                 }
             </div>
 
-            <div class="flex justify-center mt-8 lg:mt-16">
-                <a href="" class="flex p-3 justify-between lg:justify-center items-center group gap-2 px-10 rounded-full bg-gray-950 text-white mt-4 lg:mt-0">
-                    <span>voir plus</span>
-                    <i class='bx bx-right-arrow-alt -rotate-45 group-hover:translate-x-2 duration-300 text-2xl'></i>
-                </a>
-               </div>
+           
         </div>
     </div>
 </section>
