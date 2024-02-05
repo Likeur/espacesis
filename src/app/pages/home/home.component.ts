@@ -136,9 +136,28 @@ export default class HomeComponent implements OnInit {
       },
       y:50,
       opacity:0,
-      skewX:'10px',
       duration:0.8,
       stagger:0.1
+    })
+    gsap.from('.team_block',{
+      scrollTrigger:{
+        trigger:'.team_block',
+        start:'top 85%',
+      },
+      y:50,
+      opacity:0,
+      duration:0.8,
+      stagger:0.1
+    })
+
+    gsap.to('.discover_para',{
+      scrollTrigger:{
+        trigger:'.discover_para',
+        start:'top 85%',
+        end:'top 10%',
+        scrub:true
+      },
+      y:-40,
     })
 
     gsap.to('.discover_images',{
