@@ -149,6 +149,16 @@ export default class HomeComponent implements OnInit {
       duration:0.8,
       stagger:0.1
     })
+    gsap.from('.event_box',{
+      scrollTrigger:{
+        trigger:'.event_box',
+        start:'top 85%',
+      },
+      y:50,
+      opacity:0,
+      duration:0.8,
+      stagger:0.2
+    })
 
     gsap.to('.discover_para',{
       scrollTrigger:{
