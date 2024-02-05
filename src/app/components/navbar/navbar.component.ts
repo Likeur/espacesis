@@ -34,6 +34,7 @@ export class NavbarComponent implements OnInit {
   
   toggleMenu(){
 
+    this.menuIsOpen = !this.menuIsOpen
     this.openMenuTl.to('.nav_container',{
       display:'grid'
     }).to('.nav_Wrapper',{
@@ -46,14 +47,12 @@ export class NavbarComponent implements OnInit {
       stagger:0.1,
     }, "<")
 
-  this.openMenuTl.pause()
+    this.openMenuTl.pause()
 
-    if(!this.menuIsOpen){
+    if(this.menuIsOpen){
       this.openMenuTl.play()
-      this.menuIsOpen = true
     }else{
       this.openMenuTl.reverse()
-      this.menuIsOpen = false
     }
   }
 }
