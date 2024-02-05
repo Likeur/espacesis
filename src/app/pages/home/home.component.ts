@@ -129,14 +129,22 @@ export default class HomeComponent implements OnInit {
       duration:0.8,
       stagger:0.1
     })
+    gsap.from('.discover_para',{
+      scrollTrigger:{
+        trigger:'.discover_para',
+        start:'top 85%',
+      },
+      y:50,
+      opacity:0,
+      skewX:'10px',
+      duration:0.8,
+      stagger:0.1
+    })
 
     gsap.to('.discover_images',{
       scrollTrigger:{
         trigger:'.discover_images',
         start:'top 85%',
-        end: 'top 30%',
-        markers:true,
-        scrub:true
       },
       scaleY:'0',
       transformOrigin:'top',
