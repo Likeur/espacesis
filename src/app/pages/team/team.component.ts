@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-blog',
+  selector: 'app-team',
   standalone: true,
   imports: [],
-  templateUrl: './blog.component.html',
+  templateUrl: './team.component.html',
   styles: ``
 })
-export class BlogComponent {
+export class TeamComponent {
 
 }
