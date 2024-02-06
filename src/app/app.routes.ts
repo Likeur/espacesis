@@ -7,14 +7,9 @@ export const routes: Routes = [
         loadComponent: () => import('./pages/home/home.component')
     },
     {
-        path:'about',
-        title: 'à propos',
-        loadComponent: () => import('./pages/about/about.component')
-    },
-    {
-        path:'blog',
-        title: 'blog',
-        loadComponent: () => import('./pages/about/about.component')
+        path:'team',
+        title: 'team',
+        loadComponent: () => import('./pages/team/team.component')
     },
     {
         path:'',
