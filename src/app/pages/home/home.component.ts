@@ -106,6 +106,16 @@ export default class HomeComponent implements OnInit {
       duration:0.8,
       stagger:0.1
     })
+    gsap.from('.logo_partner',{
+      scrollTrigger:{
+        trigger:'.logo_partner',
+        start:'top 85%',
+      },
+      y:50,
+      opacity:0,
+      duration:0.5,
+      stagger:0.08
+    })
     gsap.from('.team_text',{
       scrollTrigger:{
         trigger:'.team_text',

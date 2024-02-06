@@ -2,12 +2,12 @@
     <div class="lg:w-[90vw] mb-10 lg:mb-20">
         <div class="flex justify-center">
             <div class="w-[60%] lg:w-[80%] mb-8 lg:mb-16 mt-8 lg:mt-16 overflow-hidden">
-                <h3 class="team_text text-4xl font-bold lg:text-6xl text-gray-400">Core Team</h3>
-                <p class="team_text text-4xl lg:text-6xl font-bold mt-1">Tous les membres de l'équipe</p>
+                <h3 class="fullteam_text text-4xl font-bold lg:text-6xl text-gray-400">Core Team</h3>
+                <p class="fullteam_text text-4xl lg:text-6xl font-bold mt-1">Tous les membres de l'équipe</p>
             </div>
         </div>
         <div class="flex justify-center">
-            <div class="team_block p-4 lg:p-6 mt-5 grid justify-center grid-cols-2 md:grid-cols-3 w-full lg:grid-cols-4 lg:mt-16 gap-7 lg:gap-6 lg:mb-8">
+            <div class="fullteam_block p-4 lg:p-6 mt-5 grid justify-center grid-cols-2 md:grid-cols-3 w-full lg:grid-cols-4 lg:mt-16 gap-7 lg:gap-6 lg:mb-8">
                 @for(item of teamList; track item.id){
                     <div class=" flex flex-col items-center">
                         <div>
@@ -32,11 +32,6 @@
                 }
             </div>
         </div>
-       <div class="flex justify-center ">
-        <a href="" class="flex p-3 justify-between lg:justify-center items-center group gap-2 px-10 rounded-full bg-gray-950 text-white mt-4 lg:mt-0">
-            <span>voir plus</span>
-            <i class='bx bx-right-arrow-alt -rotate-45 group-hover:translate-x-2 duration-300 text-2xl'></i>
-        </a>
-       </div>
+       
     </div>
 </section>

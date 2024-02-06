@@ -9,4 +9,7 @@ import { RouterModule } from '@angular/router';
 })
 export class FootersectionComponent {
 
+  scrollToTop(){
+    document.documentElement.scrollTop = 0
+  }
 }

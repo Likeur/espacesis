@@ -1,13 +1,18 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-teamsection',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './teamsection.component.html',
   styles: ``
 })
 export class TeamsectionComponent {
+
+  scrollToTop(){
+    document.documentElement.scrollTop = 0
+  }
 
   teamList1 = [
     {
