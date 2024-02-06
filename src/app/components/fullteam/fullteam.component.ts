@@ -5,7 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './fullteam.component.html',
-  styles: ``
 })
 export class FullteamComponent {
 
@@ -76,7 +75,7 @@ export class FullteamComponent {
     },
     {
       id:9,
-      photoLink : '../../../assets/images/lkanan.jpg',
+      photoLink : '../../../assets/images/jules.jpg',
       name:'Jules cesar',
       post: 'web',
       linkedin: '...',
@@ -84,7 +83,7 @@ export class FullteamComponent {
     },
     {
       id:10,
-      photoLink : '../../../assets/images/lkanan.jpg',
+      photoLink : '../../../assets/images/jus.jpg',
       name:'Arcel',
       post: 'designer co',
       linkedin: '...',
@@ -92,7 +91,7 @@ export class FullteamComponent {
     },
     {
       id:11,
-      photoLink : '../../../assets/images/lkanan.jpg',
+      photoLink : '../../../assets/images/fasturtle.jpg',
       name:'Wonder',
       post: 'event planner',
       linkedin: '...',
@@ -100,9 +99,17 @@ export class FullteamComponent {
     },
     {
       id:12,
-      photoLink : '../../../assets/images/lkanan.jpg',
+      photoLink : '../../../assets/images/lmr.jpg',
       name:'Lmr lumière',
       post: 'ML',
+      linkedin: '...',
+      instagram : '...'
+    },
+    {
+      id:13,
+      photoLink : '../../../assets/images/rooney.jpg',
+      name:'Rooney',
+      post: 'Iot',
       linkedin: '...',
       instagram : '...'
     }
