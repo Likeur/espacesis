@@ -21,7 +21,7 @@ export class EventsectionComponent {
       id:2,
       linkphoto: '../../../assets/images/welcomeday.JPG',
       name : 'welcome Day',
-      description: "Est une journée pour acceuillir les nouveau membres du club et leur présenter l'objectif du club , le bénéfice, la vision , la présentation des projets par les anciens membres et quelques retours d'expériences de la part des alumnis du club pour encourager les nouveaux membres.",
+      description: "Est une journée pour acceuillir les nouveau membres du club et leur présenter l'objectif du club , le bénéfice, la vision , la présentation des projets par les anciens membres et quelques retours d'expériences de la part des alumnis du club pour encourager les nouveaux membres du club",
       albumLink : ""
     },
     {
